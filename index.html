@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>dev.portfolio</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&family=Syne:wght@400;700;800&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <div class="nav-logo"><span>~/</span>Yash_Dhame</div>
+    <ul class="nav-links">
+      <li><a href="#about">about</a></li>
+      <li><a href="#projects">projects</a></li>
+      <li><a href="#skills">skills</a></li>
+      <li><a href="#contact">contact</a></li>
+    </ul>
+    <div class="nav-status">
+      <div class="dot"></div>
+      available for work
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="container hero-inner">
+      <br>
+      <p class="hero-eyebrow">
+        <span class="prompt">$</span> who am i&nbsp;—&nbsp; executing...
+      </p>
+      <br>
+      <h1 class="hero-name">
+        <span class="accent">Yash.</span><br><br>
+      </h1>
+      <p class="hero-role">
+        Computer Engineer, Web Developer &amp; <span class="highlight">UI Developer</span>
+      </p>
+      <p class="hero-desc">
+        I build fast, accessible, and visually sharp web interfaces. Passionate about clean code and crafting
+        experiences that actually feel good to use.
+      </p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn btn-primary">view_projects();</a>
+        <a href="#contact" class="btn btn-ghost">./contact_me.</a>
+      </div>
+      <div class="hero-meta">
+        <div class="hero-stat">
+          <div class="num">2<sup>rd</sup><span></span></div>
+          <div class="label">years undergraduate</div>
+        </div>
+        <div class="stat-div"></div>
+        <div class="hero-stat">
+          <div class="num">3<span>+</span></div>
+          <div class="label">projects completed</div>
+        </div>
+        <div class="stat-div"></div>
+        <div class="hero-stat">
+          <div class="num">1<span>*</span></div>
+          <div class="label">Project Deployed</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container">
+
+      <p class="sec-label">01 // about_me</p>
+
+      <h2 class="sec-title">
+        A bit about<br>who I am.
+      </h2>
+
+      <div class="about-grid fade-in">
+
+        <!-- LEFT SIDE -->
+        <div class="about-text">
+
+          <p>
+            Hey! I'm <span class="hl">Yash Dhame</span>, a passionate
+            <span class="hl">Computer Engineering student</span> focused on
+            crafting modern, responsive, and user-friendly web experiences.
+          </p>
+
+          <p>
+            I'm also actively exploring
+            <span class="hl">Data Structures & Algorithms</span>,
+            <span class="hl">Full Stack Development</span>, and
+            <span class="hl">AI/ML</span> to strengthen my problem-solving and development skills.
+          </p>
+
+          <p>
+            Currently open to
+            <span class="hl">internships</span>,
+            <span class="hl">freelance projects</span>, and exciting collaboration opportunities.
+          </p>
+
+        </div>
+
+        <!-- RIGHT SIDE TERMINAL -->
+        <div class="terminal-box">
+
+          <div class="tb-header">
+            <div class="tb-dot tb-red"></div>
+            <div class="tb-dot tb-yellow"></div>
+            <div class="tb-dot tb-green"></div>
+
+            <div class="tb-title">~ info.json</div>
+          </div>
+
+          <div class="tb-body">
+
+            <span class="tb-line">
+              <span class="tb-prompt">$</span>
+              <span class="tb-cmd">yash info.json</span>
+            </span>
+
+            <span class="tb-line tb-out">{</span>
+
+            <span class="tb-line tb-out">
+              &nbsp;&nbsp;<span class="tb-key">"name"</span>:
+              <span class="tb-str">"Yash Dhame"</span>,
+            </span>
+
+            <span class="tb-line tb-out">
+              &nbsp;&nbsp;<span class="tb-key">"role"</span>:
+              <span class="tb-str">"Developer"</span>,
+            </span>
+
+            <span class="tb-line tb-out">
+              &nbsp;&nbsp;<span class="tb-key">"location"</span>:
+              <span class="tb-str">"Pune, India"</span>,
+            </span>
+
+            <span class="tb-line tb-out">
+              &nbsp;&nbsp;<span class="tb-key">"specialization"</span>:
+              <span class="tb-str"> "Frontend + Full Stack"</span>,
+            </span>
+
+            <span class="tb-line tb-out">
+              &nbsp;&nbsp;<span class="tb-key">"open_to_work"</span>:
+              <span class="tb-val">true</span>
+            </span>
+
+            <span class="tb-line tb-out">}</span>
+
+            <span class="tb-line">
+              <span class="tb-prompt">$</span>
+              <span class="cursor"></span>
+            </span>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="container">
+      <p class="sec-label">02 // projects</p>
+      <h2 class="sec-title">Things I've<br>built.</h2>
+      <div class="projects-grid">
+
+        <div class="proj-card fade-in">
+          <div class="proj-top">
+            <div class="proj-icon">☕</div>
+            <div class="proj-links">
+              <a href="https://github.com/YashDhame9906/Cafe-Ruu.git" class="proj-link" title="GitHub">⌥</a>
+              <a href="https://caferuu.netlify.app" class="proj-link" title="Live">↗</a>
+            </div>
+          </div>
+          <div class="proj-name">Cafe-Ruu</div>
+          <p class="proj-desc">Cafe-Ruu is a responsive restaurant website featuring online food ordering, cart
+            management, table booking, and email confirmations. Built for a smooth and interactive user experience..</p>
+          <div class="proj-tags">
+            <span class="tag">HTML5</span>
+            <span class="tag">CSS3</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">EmailJS</span>
+          </div>
+        </div>
+
+        <div class="proj-card fade-in">
+          <div class="proj-top">
+            <div class="proj-icon">🔍</div>
+            <div class="proj-links">
+              <a href="https://github.com/YashDhame9906/lost-found-app.git" class="proj-link" title="GitHub">⌥</a>
+              <a href="http://localhost/lostfound" class="proj-link" title="Live">↗</a>
+            </div>
+          </div>
+          <div class="proj-name">Lost & Found</div>
+          <p class="proj-desc">Lost & Found is a web-based application that enables users to post and browse lost or
+            found items with image uploads. It offers a clean and easy-to-use interface for item recovery management.
+          </p>
+          <div class="proj-tags">
+            <span class="tag">PHP</span>
+            <span class="tag">MySQL</span>
+            <span class="tag">XAMPP</span>
+            <span class="tag">HTML,CSS</span>
+          </div>
+        </div>
+
+
+        <div class="proj-card fade-in">
+          <div class="proj-top">
+            <div class="proj-icon">👻</div>
+            <div class="proj-links">
+              <a href="https://github.com/YashDhame9906/Yash-Dev-Portfolio.git" class="proj-link" title="GitHub">⌥</a>
+              <a href="https://yashdevportfolio.netlify.app" class="proj-link" title="Live">↗</a>
+            </div>
+          </div>
+          <div class="proj-name">Yash Dev Portfolio</div>
+          <p class="proj-desc">A personal portfolio website showcasing my projects, skills, highlights my technical
+            journey and experience in DSA, Programming, and web development.</p>
+          <div class="proj-tags">
+            <span class="tag">HTML5</span>
+            <span class="tag">CSS3</span>
+            <span class="tag">JavaScript</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="container">
+
+      <p class="sec-label">03 // skills</p>
+
+      <h2 class="sec-title">
+        My tech<br>stack.
+      </h2>
+
+      <div class="skills-layout">
+
+        <!-- FRONTEND -->
+        <div class="skill-group fade-in">
+
+          <div class="sg-title">frontend</div>
+
+          <div class="skill-item">
+            <div class="skill-row">
+              <span>HTML5</span>
+              <span class="skill-pct">95%</span>
+            </div>
+
+            <div class="skill-bar">
+              <div class="skill-fill" style="width:95%"></div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-row">
+              <span>CSS3 / Tailwind</span>
+              <span class="skill-pct">90%</span>
+            </div>
+
+            <div class="skill-bar">
+              <div class="skill-fill" style="width:90%"></div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-row">
+              <span>JavaScript</span>
+              <span class="skill-pct">73%</span>
+            </div>
+
+            <div class="skill-bar">
+              <div class="skill-fill" style="width:73%"></div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-row">
+              <span>React.js</span>
+              <span class="skill-pct">29%</span>
+            </div>
+
+            <div class="skill-bar">
+              <div class="skill-fill" style="width:29%"></div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- PROGRAMMING -->
+        <div class="skill-group fade-in">
+
+          <div class="sg-title">programming</div>
+
+          <div class="skill-item">
+            <div class="skill-row">
+              <span>Java</span>
+              <span class="skill-pct">71%</span>
+            </div>
+
+            <div class="skill-bar">
+              <div class="skill-fill cyan" style="width:71%"></div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-row">
+              <span>Data Structures & Algorithms</span>
+              <span class="skill-pct">64%</span>
+            </div>
+
+            <div class="skill-bar">
+              <div class="skill-fill cyan" style="width:64%"></div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-row">
+              <span>OOP Concepts</span>
+              <span class="skill-pct">89%</span>
+            </div>
+
+            <div class="skill-bar">
+              <div class="skill-fill cyan" style="width:89%"></div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-row">
+              <span>Problem Solving</span>
+              <span class="skill-pct">67%</span>
+            </div>
+
+            <div class="skill-bar">
+              <div class="skill-fill cyan" style="width:67%"></div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- BACKEND -->
+        <div class="skill-group fade-in">
+
+          <div class="sg-title">backend</div>
+
+          <div class="skill-item">
+            <div class="skill-row">
+              <span>PHP</span>
+              <span class="skill-pct">78%</span>
+            </div>
+
+            <div class="skill-bar">
+              <div class="skill-fill purple" style="width:78%"></div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-row">
+              <span>MySQL</span>
+              <span class="skill-pct">75%</span>
+            </div>
+
+            <div class="skill-bar">
+              <div class="skill-fill purple" style="width:75%"></div>
+            </div>
+          </div>
+
+
+
+          <div class="skill-item">
+            <div class="skill-row">
+              <span>EmailJS</span>
+              <span class="skill-pct">82%</span>
+            </div>
+
+            <div class="skill-bar">
+              <div class="skill-fill purple" style="width:82%"></div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- TOOLS -->
+        <div class="skill-group fade-in">
+
+          <div class="sg-title">tools & other</div>
+
+          <div class="skill-item">
+            <div class="skill-row">
+              <span>Git / GitHub</span>
+              <span class="skill-pct">88%</span>
+            </div>
+
+            <div class="skill-bar">
+              <div class="skill-fill orange" style="width:88%"></div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-row">
+              <span>VS Code</span>
+              <span class="skill-pct">92%</span>
+            </div>
+
+            <div class="skill-bar">
+              <div class="skill-fill orange" style="width:92%"></div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-row">
+              <span>Responsive Design</span>
+              <span class="skill-pct">90%</span>
+            </div>
+
+            <div class="skill-bar">
+              <div class="skill-fill orange" style="width:90%"></div>
+            </div>
+          </div>
+
+
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container">
+      <p class="sec-label">04 // contact</p>
+      <h2 class="sec-title">Let's work<br>together.</h2>
+      <div class="contact-grid">
+        <div class="contact-text fade-in">
+          <p>I am actively looking for opportunities where I can learn, grow & contribute.
+
+            I’m open to solving problems and building web applications that add value.
+            My inbox is always open for opportunities, collaborations.
+          </p>
+          <div class="contact-links">
+            <a href="mailto:yashdhame12@email.com" class="contact-link">
+              <span class="cl-icon">✉</span>
+              <span class="cl-label">yashdhame12@email.com</span>
+              <span class="cl-arrow">→</span>
+            </a>
+            <a href="https://github.com/YashDhame9906/" class="contact-link" target="_blank">
+              <span class="cl-icon">⌥</span>
+              <span class="cl-label">github.com/YashDhame9906</span>
+              <span class="cl-arrow">→</span>
+            </a>
+            <a href="https://www.linkedin.com/in/yashdhame18/" class="contact-link" target="_blank">
+              <span class="cl-icon">in</span>
+              <span class="cl-label">linkedin.com/in/yashdhame18</span>
+              <span class="cl-arrow">→</span>
+            </a>
+            <a href="YashResume.pdf" class="contact-link" target="_blank">
+              <span class="cl-icon">🗁</span>
+              <span class="cl-label">download resume@yashDhame</span>
+              <span class="cl-arrow">→</span>
+            </a>
+
+          </div>
+        </div>
+
+        <form class="contact-form fade-in" onsubmit="handleSubmit(event)">
+          <div class="form-group">
+            <label class="form-label">name <span class="req">*</span></label>
+            <input class="form-input" type="text" placeholder="your name" required />
+          </div>
+          <div class="form-group">
+            <label class="form-label">email <span class="req">*</span></label>
+            <input class="form-input" type="email" placeholder="your email" required />
+          </div>
+          <div class="form-group">
+            <label class="form-label">message <span class="req">*</span></label>
+            <textarea class="form-textarea" placeholder="Hey, I'd love to work with you on..." required></textarea>
+          </div>
+          <button type="submit" class="form-submit">send_message();</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <p>designed &amp; built by <span>Yash</span> &nbsp;·&nbsp; <span>2026</span> &nbsp;·&nbsp; Yash Dev Portfolio</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
